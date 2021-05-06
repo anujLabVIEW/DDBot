@@ -1,7 +1,7 @@
 # Differential Drive Robot
 
 #### Abstract
-This library allows you to control a differential drive robot using L293D, L298 or similar motor drivers. It mainly condenses long confusing functions into simple single-line ones. Although it is designed specifically for the Level 3 course offered to schools in Bangalore by Just Robotics (https://www.justrobotics.in/), it can be used for robots that follow a similar configuration.
+This library allows you to control a differential drive robot using L293D, L298 or similar motor drivers. It mainly condenses long confusing functions into simple single-line ones. Although it is designed specifically for the Level 3 course offered to schools in Bangalore by [Just Robotics](https://www.justrobotics.in/), it can be used for robots that follow a similar configuration.
 ## Robot configuration
 A motor driver IC such as L293D connects to two motors (you can use four or more as well but they will not get individual control - at least not yet - and you must connect them all in parallel to the same L293D port). One motor port drives the wheel(s) on the left side; the other is responsible for the right side.
 ## Purpose of DDBot
